@@ -104,7 +104,7 @@ while(True): # An infinite Game-loop, inspired from PyGame. Keeps the program ru
     if takingResponse: # This chunk of code prints out a message whenever the program is ready to take an input.
         print("Taking responses NOW.")
         takingResponse = False # Keeps the program from spamming the same message over and over again.
-    if keyboard.is_pressed('f2'): # Remappable. Change to any other key here, or use 'and' to make it a hotkey.
+    if keyboard.is_pressed('f9'): # Remappable. Change to any other key here, or use 'and' to make it a hotkey.
         entered = copyHighlight() # Assigns to the variable what has been highlighted on screen.
         print(entered) # Prints what has been entered. For convenience.
         string = summarizeUD(entered) # Summarizes the highlighted text
@@ -112,7 +112,7 @@ while(True): # An infinite Game-loop, inspired from PyGame. Keeps the program ru
         messagebox.showinfo("Cerebruh", string) # Shows MessageBox, with definition and example
         takingResponse = True # Indicates that program is ready for next input.
         continue # Loops back
-    if keyboard.is_pressed('f9'): # Remappable, as before.
+    if keyboard.is_pressed('f2'): # Remappable, as before.
         index = 0 # The index identifies from which paragraph to start extracting. 0 is often unnecessary. 1 is the first line.
         search = copyHighlight() # Assigns to variable what is highlighted
         # The next line gets the summary. The '-disambiguation' makes it so that "Maybe you meant..." pages don't appear.
