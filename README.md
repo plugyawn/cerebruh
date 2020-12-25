@@ -37,6 +37,19 @@ Once the program is running, highlight some text and press F2 to see how Urban D
   8. tkinter
   9. lxml
   
+  # List of known Bugs
+
++ ### Wikipedia searches sometimes return blank message-boxes. Press *YES* on the dialogue-box to get the right paragraph.
+Some Wikipedia pages don't have text on the first index of the paragraph, and the program starts extracting for text from there, so it returns a blank message. Pressing YES to move on to the next paragraph works fine. 
+ Can be potentially fixed by checking for ```None``` in the return statement for the ```getSummary()``` function.
+
++ ### tKinter Window goes out of focus after first search
+This seems to be an inherent problem with tKinter. Every time after the first search, the Message Box has to be opened back from the taskbar. As of now, I have not thought of a way to fix this.
+
++ ### End of file on Wikipedia
+It is possible to keep pressing YES and reach the end of a Wikipedia file, on which it will throw an error. 
+ This can be easily fixed with a try:catch construct.
+  
  # IIT Gandhinagar ES102 Course Project.
  ### Submitted by Progyan Das.
  
