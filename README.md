@@ -26,7 +26,7 @@ Once PIP is installed, use ```pip install [libary]``` to install that library. Y
 Once the program is running, highlight some text and press F2 to see how Urban Dictionary defines that word, or, press F9 to see how Wikipedia defines it. If you are on a laptop, some OEMs may require you to press the ```fn``` key along with F2 or F9. 
 
 
-# Libraries and/or Modules required:
+# Libraries and/or Modules required
   1. pyautogui
   2. time
   3. keyboard
@@ -37,16 +37,16 @@ Once the program is running, highlight some text and press F2 to see how Urban D
   8. tkinter
   9. lxml
   
-  # List of known Bugs
+  # List of known bugs
 
-+ ### Wikipedia searches sometimes return blank message-boxes. Press *YES* on the dialogue-box to get the right paragraph.
++ ### Wikipedia searches sometimes return blank message-boxes.
 Some Wikipedia pages don't have text on the first index of the paragraph, and the program starts extracting for text from there, so it returns a blank message. Pressing YES to move on to the next paragraph works fine. 
  Can be potentially fixed by checking for ```None``` in the return statement for the ```getSummary()``` function.
 
-+ ### tKinter Window goes out of focus after first search
++ ### tKinter Window goes out of focus after first search.
 This seems to be an inherent problem with tKinter. Every time after the first search, the Message Box has to be opened back from the taskbar. As of now, I have not thought of a way to fix this.
 
-+ ### End of file on Wikipedia
++ ### End of file on Wikipedia.
 It is possible to keep pressing YES and reach the end of a Wikipedia file, on which it will throw an error. 
  This can be easily fixed with a try:catch construct.
   
