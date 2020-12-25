@@ -1,5 +1,5 @@
 # cerebruh
-A Windows-based python application aimed at putting Wikipedia and the UrbanDictionary at the tip of your finger. One finger.
+A Windows-based python application aimed at putting Wikipedia and the UrbanDictionary at the tip of your finger. One finger. Developed by Progyan Das.
 
 # Platform Support
 
@@ -51,7 +51,7 @@ It is possible to keep pressing YES and reach the end of a Wikipedia file, on wh
  This can be easily fixed with a try:catch construct.
   
  # IIT Gandhinagar ES102 Course Project.
- ### Submitted by Progyan Das.
+ ### Developed by Progyan Das.
  
 
   
