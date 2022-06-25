@@ -1,9 +1,27 @@
-# 🧐 cerebruh
+
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+
+
+
+<div align = center>
+
+<!-- <img width="600" alt="image" align="center" src="https://user-images.githubusercontent.com/76529011/175762519-28d93693-8f3e-4fb4-830e-afd0c78d989e.png"> -->
+  <img width="600" alt="image" src="https://user-images.githubusercontent.com/76529011/175762596-73338a56-178c-474b-b3c4-f97dce94cc40.png">
+
+</div>
+
+-----------------------------------------
+<div></div>
 A Windows-based python application aimed at putting Wikipedia and the UrbanDictionary at the tip of your finger. One finger.
 
 [Report and guide to the code.](https://github.com/plugyawn/cerebruh/files/8984065/cerebruh.pdf)
 
 # Platform Support
+
+UPDATE: Cerebruh is (predictably) no longer under development.
 
 ### 🪟 Windows
 Fully supported and tested. Updates will first come to Windows.
