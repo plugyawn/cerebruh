@@ -1,18 +1,20 @@
-# cerebruh
-A Windows-based python application aimed at putting Wikipedia and the UrbanDictionary at the tip of your finger. One finger. Developed by Progyan Das.
+# 🧐 cerebruh
+A Windows-based python application aimed at putting Wikipedia and the UrbanDictionary at the tip of your finger. One finger.
+
+[Report and guide to the code.](https://github.com/plugyawn/cerebruh/files/8984065/cerebruh.pdf)
 
 # Platform Support
 
-### Windows
+### 🪟 Windows
 Fully supported and tested. Updates will first come to Windows.
 
-### Linux
+### 🐧 Linux
 Not tested, possibly broken. Will update after patching.
 
-### MacOS
+### 🍏 MacOS
 Absolutely not supported as of now. However, changing the hotkey for the copy function to correspond to MacOS should fix some issues.
 
-# FAQs
+# 🤔 FAQs
 
 ### How do I run this?
 Extract the .zip file to a directory of your choice and run ```cerebruh.py``` from the command-prompt.
@@ -26,7 +28,7 @@ Once PIP is installed, use ```pip install [libary]``` to install that library. Y
 Once the program is running, highlight some text and press F2 to see how Urban Dictionary defines that word, or, press F9 to see how Wikipedia defines it. If you are on a laptop, some OEMs may require you to press the ```fn``` key along with F2 or F9. 
 
 
-# Libraries and/or Modules required
+# 🧑🏻‍💻 Libraries and/or Modules required
   1. pyautogui
   2. time
   3. keyboard
@@ -37,7 +39,7 @@ Once the program is running, highlight some text and press F2 to see how Urban D
   8. tkinter
   9. lxml
   
-  # List of known bugs
+  # 🪲 List of known bugs
 
 + ### Wikipedia searches sometimes return blank message-boxes.
 Some Wikipedia pages don't have text on the first index of the paragraph, and the program starts extracting for text from there, so it returns a blank message. Pressing YES to move on to the next paragraph works fine. 
@@ -50,8 +52,6 @@ This seems to be an inherent problem with tKinter. Every time after the first se
 It is possible to keep pressing YES and reach the end of a Wikipedia file, on which it will throw an error. 
  This can be easily fixed with a try:catch construct.
   
- # IIT Gandhinagar ES102 Course Project.
- ### Developed by Progyan Das.
  
 
   
